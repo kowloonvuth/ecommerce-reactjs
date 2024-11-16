@@ -13,7 +13,7 @@ const Hero = () => {
         <h1 className='text-[70px] leading-[1.1] font-light mb-4'>Best Sellers in Clothing <br />
         <span className='font-semibold'>MENS / WOMENS</span>
       </h1>
-        <Link to={'/'} className='self-start uppercase font-semibold border-b-2 border-primary'>Discover More</Link>
+        <div className='self-start uppercase font-semibold border-b-2 border-primary'>#1 Trusted Cloth-Selling Website</div>
       </div>
       <div className='hidden lg:block'>
         <img src={Img} alt=''/>

@@ -5,6 +5,9 @@ import ProductDetails from './pages/ProductDetails'
 import Sidebar from './components/Sidebar';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
+import ViewCart from "./pages/ViewCart.js";
+import CheckOut from "./pages/CheckOut.js";
+
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='product/:id' element={<ProductDetails />}/>
+          <Route path='/view-cart' element={<ViewCart />}/>
+          <Route path='/checkout' element={<CheckOut />}/>
         </Routes>
         <Sidebar />
         <Footer />
